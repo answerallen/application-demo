@@ -28,7 +28,7 @@ spec:
   - port: 80
     targetPort: 8080
     name: application-demo
-    nodePort: 30273
+    nodePort: 30372
   selector:
     app: application-demo
   type: NodePort
